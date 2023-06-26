@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+nav {
+  display: block;
+  width: 100px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 0px;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 10px;
+  margin-top: 80px;
+}
+
+.card {
+  width: 800px;
+  margin: auto;
+  border: 0.5px solid rgb(215, 215, 215);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 1px 0px 29px 0px rgba(219, 219, 219, 1);
+}
+/* .card-heading{
+  display:flex;
+  justify-content: right;
+} */
+button {
+  padding: 6px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e7e1e1;
+  text-align: right;
+  color: rgb(24, 24, 24);
+  font-size: smaller;
+  box-shadow: 1px 0px 29px 0px rgba(219, 219, 219, 1);
+}
+.card-button-read {
+  color: red;
+}
+.card-button-delete {
+  color: green;
+}
+.card-button-spam {
+  color: red;
+}
+.star {
+  /* display:flex; */
+
+  padding: 5px 20px;
+  margin: 0 20px;
+}
+.details {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
